@@ -35,3 +35,39 @@ nav ul li a{
  }
  border-radius: 100px;
 }
+.Hero{
+  background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg') no-repeat center center/cover;
+  height: 70vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  position: relative;
+  text-align: center;
+
+}
+.hero-content{
+  max-width: 700px;
+}
+.hero-content h1{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero-content p{
+  color: aqua;
+  text-align: center;
+  font-size: 40px;
+}
+.hero-content a{
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 7px;
+  background-color: rgb(255, 251, 0);
+  border-radius:20px;
+align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
