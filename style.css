@@ -1,0 +1,37 @@
+nav{
+  background: pink;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li{
+  display: inline;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+#services {
+  margin: 20px;
+  text-align: center;
+}
+
+.heading {
+  color: aqua;
+  text-decoration: underline;
+}
+.services-card{
+ display: inline-block;
+ width: 250px;
+ margin: 20px;
+ padding: 45px;
+ border: 10px solid pink;
+ h3{
+  color: blue;
+  font-weight: 900;
+  font-size: 30px;
+ }
+ border-radius: 100px;
+}
